@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Perlica Charms</title>
+    
+    <!-- Font Google e Icone -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    
+    <!-- Tailwind via CDN per lo sviluppo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Configurazione tema personalizzato Stitch -->
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary": "#446558", "on-surface": "#1f1b18", "tertiary-fixed-dim": "#edbf7c", "error-container": "#ffdad6", "primary-container": "#cb483b", "on-tertiary": "#ffffff", "primary-fixed": "#ffdad5", "on-surface-variant": "#58413e", "on-secondary-fixed": "#002117", "surface-bright": "#fff8f5", "surface-container-lowest": "#ffffff", "tertiary": "#78551d", "secondary-fixed": "#c6ebda", "on-secondary-fixed-variant": "#2c4d41", "inverse-surface": "#352f2c", "on-error-container": "#93000a", "on-tertiary-fixed": "#291800", "surface-dim": "#e2d8d3", "surface-container-highest": "#ebe0db", "tertiary-fixed": "#ffddb1", "on-tertiary-fixed-variant": "#604108", "primary-fixed-dim": "#ffb4a9", "secondary-fixed-dim": "#aacfbe", "on-primary-container": "#fffbff", "background": "#fff8f5", "surface": "#fff8f5", "tertiary-container": "#936e34", "surface-variant": "#ebe0db", "primary": "#a93025", "on-primary-fixed-variant": "#8b1913", "inverse-primary": "#ffb4a9", "surface-container": "#f6ece7", "secondary-container": "#c3e8d7", "on-tertiary-container": "#fffbff", "inverse-on-surface": "#f9efea", "on-secondary": "#ffffff", "error": "#ba1a1a", "outline-variant": "#e0bfba", "surface-container-low": "#fcf2ec", "surface-container-high": "#f0e6e1", "surface-tint": "#ac3228", "outline": "#8c716d", "on-secondary-container": "#48695c", "on-background": "#1f1b18", "on-primary": "#ffffff", "on-error": "#ffffff", "on-primary-fixed": "#410001"
+            },
+            borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" },
+            spacing: { "space-xs": "0.25rem", "margin-sm": "1rem", "gutter-lg": "1.5rem", "gutter-sm": "0.75rem", "margin": "1.25rem", "space-lg": "1.5rem", "gutter": "1rem", "space-sm": "0.5rem", "margin-lg": "2.5rem", "space-xl": "2.5rem", "space-md": "1rem" },
+            fontFamily: {
+              "headline-sm": ["Playfair Display"], "display-hero": ["Playfair Display"], "display-hero-mobile": ["Playfair Display"], "body-md": ["Plus Jakarta Sans"], "headline-md": ["Playfair Display"], "label-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Playfair Display"], "label-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Playfair Display"], "body-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"]
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
