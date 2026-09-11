@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Catalogo from './pages/Catalogo';
 import ChiSiamo from './pages/ChiSiamo';
+import Carrello from './pages/Carrello';
 import './index.css';
 
 export default function App() {
@@ -12,8 +13,9 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/catalogo" element={<Catalogo />} /> {/* 2. Aggiungi questa rotta */}
+          <Route path="/catalogo" element={<Catalogo />} />
           <Route path="/chi-siamo" element={<ChiSiamo />} />
+          <Route path="/carrello" element={<Carrello />} />
         </Routes>
       </div>
     </BrowserRouter>
