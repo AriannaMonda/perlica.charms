@@ -267,9 +267,9 @@ export default function ChiSiamo() {
                 <span className="material-symbols-outlined text-on-surface-variant transition-transform group-open:rotate-180">expand_more</span>
               </summary>
               <div className="font-body-sm text-body-sm text-on-surface-variant pt-space-xs mt-space-xs border-t border-surface-container flex flex-col gap-2">
-                <p>Hai domande su un ordine o desideri una personalizzazione speciale? Chiara risponde direttamente su WhatsApp dal lunedì al sabato.</p>
+                <p>Hai domande su un ordine o desideri una personalizzazione speciale? Federica risponde direttamente su WhatsApp dal lunedì al sabato.</p>
                 <a className="inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary font-bold" href="#">
-                  <span className="material-symbols-outlined text-[18px]">send</span> Avvia chat (+39 340 000 0000)
+                  <span className="material-symbols-outlined text-[18px]">send</span> Avvia chat (+39 391 797 9837)
                 </a>
               </div>
             </details>
