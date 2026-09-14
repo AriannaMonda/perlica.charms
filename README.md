@@ -5,7 +5,7 @@ Progetto e-commerce frontend mobile-first sviluppato per un brand artigianale di
 ## Tecnologie Utilizzate
 • **React.js** (con Vite) per la struttura modulare dei componenti.
 • **React Router** per la navigazione fluida tra le pagine.
-• **Tailwind CSS** per il design system personalizzato (ispirato a un'estetica mediterranea e warm-minimalist).
+• **Tailwind CSS** per il design system personalizzato.
 
 ## Pagine Principali
 • **Homepage:** Vetrina interattiva con sezioni editoriali, categorie in evidenza e nuovi arrivi.
